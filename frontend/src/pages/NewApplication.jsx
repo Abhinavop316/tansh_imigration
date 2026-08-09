@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { createClient } from "../api/client.api";
 import "../styles/NewApplication.css";
 
@@ -40,6 +40,11 @@ function NewApplication({ onOpenFaq }) {
     { id: "revoked", name: "Revoked" },
     { id: "refused", name: "Refused" },
   ];
+
+
+  useEffect(() => {
+    document.title = "New Application";
+  }, []);
 
   const handleChange = (field, value) => {
     setFormData((prev) => ({ ...prev, [field]: value }));

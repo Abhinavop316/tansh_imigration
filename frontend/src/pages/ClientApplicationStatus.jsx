@@ -1,14 +1,20 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import SecurityForm from "../components/SecurityForm";
 import IdentificationForm from "../components/IdentificationForm";
 import ApplicationStatusView from "../components/ApplicationStatusView";
 import { getAClients } from "../api/client.api";
 
 function ClientApplicationStatus({ onOpenFaq }) {
+
   const [step, setStep] = useState(1);
   const [clientData, setClientData] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
   const [apiError, setApiError] = useState("");
+
+
+  useEffect(() => {
+    document.title = "Client Application Status";
+  } , [])
 
   const handleSecurityContinue = () => {
     setStep(2);
