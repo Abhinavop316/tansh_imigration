@@ -288,7 +288,7 @@ function NewApplication({ onOpenFaq }) {
                   className="text-control"
                   required
                 >
-                  <option value="">-- Choose Category --</option>
+                  <option value="">-- Choose Gender --</option>
                   {genders.map((gender) => (
                     <option key={gender.id} value={gender.id}>
                       {gender.name}
