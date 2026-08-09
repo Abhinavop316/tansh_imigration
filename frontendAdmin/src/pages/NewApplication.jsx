@@ -36,9 +36,10 @@ function NewApplication({ onOpenFaq }) {
   ];
 
   const statuses = [
-    { id: "granted", name: "Granted" },
-    { id: "revoked", name: "Revoked" },
-    { id: "refused", name: "Refused" },
+    { id: "Pending", name: "Pending" },
+    { id: "Revoked", name: "Revoked" },
+    { id: "Refused", name: "Refused" },
+    { id: "Issued", name: "Issued" },
   ];
 
 
@@ -135,7 +136,11 @@ function NewApplication({ onOpenFaq }) {
     return (
       <div className="new-application-page">
         <div className="section-heading">
-          <h1 className="section-heading__title">New Application Submitted</h1>
+          <h1 className="section-heading__title">New Application Submitted
+          </h1>
+          <span className="section-heading__subtitle">
+            ONLY FOR ADMIN
+          </span>
         </div>
 
         <div className="status-card">

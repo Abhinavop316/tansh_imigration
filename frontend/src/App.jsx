@@ -3,7 +3,6 @@ import { Routes, Route, Navigate } from "react-router-dom";
 import Head from "./components/Head";
 import Breadcrumbs from "./components/Breadcrumbs";
 import ClientApplicationStatus from "./pages/ClientApplicationStatus";
-import NewApplication from "./pages/NewApplication";
 import ReportProblem from "./components/ReportProblem";
 import FaqModal from "./components/FaqModal";
 import Footer from "./components/Footer";
@@ -41,10 +40,8 @@ function App() {
             }
           />
           <Route
-            path="/new-application"
-            element={
-              <NewApplication onOpenFaq={() => setIsFaqOpen(true)} />
-            }
+            path="*"
+            element={<Navigate to="/client-application-status" replace />}
           />
         </Routes>
 

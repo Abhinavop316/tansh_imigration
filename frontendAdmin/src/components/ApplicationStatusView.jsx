@@ -21,7 +21,7 @@ function ApplicationStatusView({ clientData, onNewSearch }) {
         <div className="status-card__summary">
           <div>
             <span className="status-card__label">Client Name:</span>{" "}
-            <span className="status-card__value">{name.toUpperCase()}</span>
+            <span className="status-card__value">{name}</span>
           </div>
           <div>
             <span className="status-card__label">Passport / ID Number:</span>{" "}
@@ -45,8 +45,8 @@ function ApplicationStatusView({ clientData, onNewSearch }) {
           </div>
           <div>
             <span className="status-card__label">Current Status:</span>{" "}
-            <span className={`status-pill ${status === "Approved" || status === "Issued" || status === "Granted" ? "approved" : ""}`}>{status}</span>
-          </div> 
+            <span className="status-pill">{status}</span>
+          </div>
         </div>
 
         <h2 className="timeline__heading">Comment on Application</h2>

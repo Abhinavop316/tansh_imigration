@@ -37,28 +37,9 @@ function Breadcrumbs() {
           </li>
           <li className="breadcrumbs__separator">&gt;</li>
           <li>
-            {location.pathname === "/client-application-status" ? (
-              <span className="breadcrumbs__current">
-                Client Application Status
-              </span>
-            ) : (
-              <Link
-                to="/client-application-status"
-                className="breadcrumbs__link"
-              >
-                Client Application Status
-              </Link>
-            )}
-          </li>
-          <li className="breadcrumbs__separator">&gt;</li>
-          <li>
-            {location.pathname === "/new-application" ? (
-              <span className="breadcrumbs__current">New Application</span>
-            ) : (
-              <Link to="/new-application" className="breadcrumbs__link">
-                New Application
-              </Link>
-            )}
+            <span className="breadcrumbs__current">
+              Client Application Status
+            </span>
           </li>
         </ol>
       </div>

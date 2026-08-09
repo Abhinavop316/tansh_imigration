@@ -55,3 +55,20 @@ exports.getAClients = async (req, res) => {
         res.status(400).json({ message: error.message });
     }
 };
+
+exports.editClient = async (req, res) => {
+    const { id } = req.params;
+    const { Status , Paragraph } = req.body;
+
+    try {
+        const client = await clientModel.findById(id);
+        if (!client) {
+            return res.status(404).json({ message: "Client not found" });
+        }
+        Object.assign(client, req.body);
+        await client.save();
+        res.status(200).json(client);
+    } catch (error) {
+        res.status(400).json({ message: error.message });
+    }
+};

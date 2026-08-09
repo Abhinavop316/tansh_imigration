@@ -45,7 +45,7 @@ const clientSchema = new mongoose.Schema({
   },
   Status: {
     type: String,
-    enum: ["Pending", "Approved", "Rejected"],
+    enum: ["Pending" , "Revoked" , "Refused" , "Issued"],
     default: "Pending",
   },
   Paragraph: {
