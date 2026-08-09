@@ -14,72 +14,63 @@ function Footer() {
           <h2 className="sr-only">About government</h2>
           <div className="site-footer__links-grid">
             <a
-              href="https://www.canada.ca/en/immigration-refugees-citizenship/corporate/contact-ircc.html"
-              target="_blank"
+              href="#"
               rel="noreferrer"
               className="site-footer__link"
             >
               Contact us
             </a>
             <a
-              href="https://www.canada.ca/en/government/dept.html"
-              target="_blank"
+              href="#"
               rel="noreferrer"
               className="site-footer__link"
             >
               Departments and agencies
             </a>
             <a
-              href="https://www.canada.ca/en/government/publicservice.html"
-              target="_blank"
+              href="#"
               rel="noreferrer"
               className="site-footer__link"
             >
               Public service and military
             </a>
             <a
-              href="https://www.canada.ca/en/news.html"
-              target="_blank"
+              href="#"
               rel="noreferrer"
               className="site-footer__link"
             >
               News
             </a>
             <a
-              href="https://www.canada.ca/en/government/system/laws.html"
-              target="_blank"
+              href="#"
               rel="noreferrer"
               className="site-footer__link"
             >
               Treaties, laws and regulations
             </a>
             <a
-              href="https://www.canada.ca/en/transparency/reporting.html"
-              target="_blank"
+              href="#"
               rel="noreferrer"
               className="site-footer__link"
             >
               Government-wide reporting
             </a>
             <a
-              href="http://pm.gc.ca/eng"
-              target="_blank"
+              href="#"
               rel="noreferrer"
               className="site-footer__link"
             >
               Prime Minister
             </a>
             <a
-              href="https://www.canada.ca/en/government/system.html"
-              target="_blank"
+              href="#"
               rel="noreferrer"
               className="site-footer__link"
             >
               About government
             </a>
             <a
-              href="http://open.canada.ca/en/"
-              target="_blank"
+              href="#"
               rel="noreferrer"
               className="site-footer__link"
             >
@@ -95,8 +86,7 @@ function Footer() {
             <ul className="site-footer__subnav">
               <li>
                 <a
-                  href="https://www.canada.ca/en/social.html"
-                  target="_blank"
+                  href="#"
                   rel="noreferrer"
                   className="site-footer__subnav-link"
                 >
@@ -105,8 +95,7 @@ function Footer() {
               </li>
               <li>
                 <a
-                  href="https://www.canada.ca/en/mobile.html"
-                  target="_blank"
+                  href="# "
                   rel="noreferrer"
                   className="site-footer__subnav-link"
                 >
@@ -115,8 +104,7 @@ function Footer() {
               </li>
               <li>
                 <a
-                  href="https://www1.canada.ca/en/newsite.html"
-                  target="_blank"
+                  href="#"
                   rel="noreferrer"
                   className="site-footer__subnav-link"
                 >
@@ -125,8 +113,7 @@ function Footer() {
               </li>
               <li>
                 <a
-                  href="https://www.canada.ca/en/transparency/terms.html"
-                  target="_blank"
+                  href="#"
                   rel="noreferrer"
                   className="site-footer__subnav-link"
                 >
@@ -135,8 +122,7 @@ function Footer() {
               </li>
               <li>
                 <a
-                  href="https://www.canada.ca/en/transparency/privacy.html"
-                  target="_blank"
+                  href="#"
                   rel="noreferrer"
                   className="site-footer__subnav-link"
                 >
